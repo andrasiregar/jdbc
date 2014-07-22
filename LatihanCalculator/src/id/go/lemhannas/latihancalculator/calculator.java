@@ -217,7 +217,7 @@ public class calculator extends JFrame {
 			@Override
 			public void mouseClicked(MouseEvent e) {
 				b = a.split("+");
-				textField.setText(b[0]);
+				textField.setText(b);
 	
 				
 			}
